@@ -1,0 +1,36 @@
+.banner{
+  position:relative;
+}
+
+.banner-cta {
+  width:100%;
+  position:absolute;
+  bottom: 0;
+  margin-bottom:20%;
+}
+
+.banner-header{
+  font-size: 48pt;
+}
+
+.banner-body {
+  font-size:16pt;
+  margin-bottom: 16pt;
+}
+
+.horizontal-list-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.horizontal-list-item>.card{
+  min-width: 240px;
+}
+
+.select-filters, .details-description, .details-atc{
+  margin-top:32px;
+}
+
+.reviews-container{
+  margin: 24px;
+}
